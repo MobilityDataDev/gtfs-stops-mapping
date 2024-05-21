@@ -1,12 +1,7 @@
-# GTFS app setup
+# GTFS stops mapping
 
-Most of MobilityDataDev's projects share the same basic setup, namely:
+![image](https://github.com/MobilityDataDev/map-gtfs-stops/assets/47520641/bd0db71e-b0c9-4300-baae-09c618e91fee)
 
-- a frontend web application
-- a NodeJS backend server
-- a PostgreSQL database (containing GTFS data)
-- and Docker containers to run it all.
+This repository shows how to create a JavaScript/HTML map that displays the location of transit stops stored in a PostgreSQL database.
 
-This repository contains the starter code/configuration for all of the above, to enable fast setup for new projects.
-
-Fork it or create your own copy by following the tutorial at https://mobilitydatadev.com/article/set-up-a-gtfs-app to get started on your own GTFS-based mobility app.
+To test it for yourself, either fork this repository or build your own copy by following the tutorial at https://mobilitydatadev.com/article/map-gtfs-stops.
