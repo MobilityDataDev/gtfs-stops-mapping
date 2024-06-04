@@ -14,7 +14,7 @@ app.get('/', async (request: Request, response: Response) => {
   try {
     const stops = await pool.query(`
       SELECT stop_name, stop_lat, stop_lon
-      FROM stop
+      FROM stops
     ;`);
     const geoJson = stops.rows.map((stop) => ({
       type: 'Feature',

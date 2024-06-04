@@ -34,7 +34,7 @@ services:
       - POSTGRES_PASSWORD=root
       - POSTGRES_DB=root
     volumes:
-      - ./gtfs.sql:/docker-entrypoint-initdb.d/gtfs.sql
+      - ./sample-data/:/docker-entrypoint-initdb.d/
       - local_pgdata:/var/lib/postgresql/data
 
   pgadmin-gui-service:
